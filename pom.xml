@@ -19,7 +19,7 @@
 		</dependency>
 
 	</dependencies>
-	<!-- Add it inside Plugins tag -->
+
 <plugin>
 	<groupId>org.jacoco</groupId>
 	<artifactId>jacoco-maven-plugin</artifactId>
