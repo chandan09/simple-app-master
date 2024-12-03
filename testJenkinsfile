@@ -1,8 +1,10 @@
 pipeline{
-  agent any{
-    stages{
-        stage('checkout'}
-          echo 'git chechout done'
+  agent any
+    tools {
+        maven 'maven3'
+    }
+  stages{
+     stage('checkout'}
+        echo 'git chechout done'
     }
   }
-}
